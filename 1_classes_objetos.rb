@@ -1,28 +1,27 @@
-#Classes e Objetos
+# Classes e Objetos
 
-#Convenção do Ruby
-#
-#Nome de métodos e variáveis
-#letras minusculas separadas com underline
-#Exemplo: meu_nome
-#Nome de classes
-#padrão CamelCase
+# Convenção do Ruby
 
-#Cada Classe é definida em um arquivo
+# Nome de métodos e variáveis
+# letras minusculas separadas com underline
+# Exemplo: meu_nome
+# Nome de classes
+# padrão CamelCase
+
+# Cada Classe é definida em um arquivo
 
 class NomeDaClasse
 end
 
-#Criar um objeto
+# Criar um objeto
 
-obj = NomeDaClasse.new
+obj = NomeDaClasse.new # rubocop:disable Lint/UselessAssignment
 
-meu_nome = "Luiz"
+meu_nome = 'Luiz'
 p meu_nome.object_id
 
-outro_nome = "Mara"
+outro_nome = 'Mara'
 p outro_nome.object_id
 
 outro_nome = meu_nome
 p outro_nome.object_id
-
